@@ -21,7 +21,7 @@ import guess
 # env
 bot_token = os.environ.get("TOKEN", "5587381762:AAFn1SttATDWuuPlEqFslZx9aeKaEZC0YbU") 
 api_hash = os.environ.get("HASH", "00d42b460cef01c13d97dad1f417194e") 
-api_id = os.environ.get("ID", "19987622 ")
+api_id = os.environ.get("ID", "19987622")
 
 
 # bot

@@ -1,0 +1,40 @@
+{
+    "name": "VideoConvertor",
+    "description": "A stable and Fast telegram video convertor bot which can compress, convert(video into audio and other video formats), rename and trim.",
+    "logo": "",
+    "keywords": [
+        "Best",
+        "telegram",
+        "compressor",
+        "bot"
+    ],
+    "repository": "https://github.com/vasusen-code/VideoConvertor",
+    "website": "",
+    "success_url": "https://t.me/DroneBots",
+    "env": {
+        "HASH": {
+            "description": "Your API HASH from my.telegram.org",
+            "value": "00d42b460cef01c13d97dad1f417194e"
+        },
+        "ID": {
+            "description": "Your API ID from my.telegram.org",
+            "value": "19987622"
+        },
+        "TOKEN": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": "5587381762:AAFn1SttATDWuuPlEqFslZx9aeKaEZC0YbU"
+        },
+        "BOT_UN": {
+            "description": "Your bot username here. Do not use '@'.",
+            "value": "genmediaconvertbot"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        }
+    ]
+}
