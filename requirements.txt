@@ -11,3 +11,4 @@ SpeechRecognition
 pydub
 gTTS
 Pillow
+ffmpeg
